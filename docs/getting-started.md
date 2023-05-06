@@ -32,7 +32,7 @@ print(
 
 Output:
 
-![output](/images/output-1.png)
+![output](/pycolorise/images/output-1.png)
 
 <hr/>
 
