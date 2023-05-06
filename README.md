@@ -74,7 +74,7 @@ print(
 
 Output:
 
-<img src="https://github.com/Modern-Realm/pycolorise/blob/main/images/output-1.png" alt="output">
+<img src="https://github.com/Modern-Realm/pycolorise/blob/main/docs/images/output-1.png" alt="output">
 
 # Useful Links:
 

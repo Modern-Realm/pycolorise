@@ -33,7 +33,7 @@ setuptools.setup(
         "Documentation": "https://modern-realm.github.io/pycolorise/",
         "Bug Tracker": "https://github.com/Modern-Realm/pycolorise/issues",
         "Examples": "https://github.com/Modern-Realm/pycolorise/tree/main/Examples",
-        "Source": "https://github.com/Modern-Realm/pycolorise/tree/main/package/pycolorise",
+        "Source": "https://github.com/Modern-Realm/pycolorise/tree/main/pycolorise",
         "Discord Server": "https://discord.gg/GVMWx5EaAN",
     },
     keywords=["colors", "terminal colors", "pycolorise"],
