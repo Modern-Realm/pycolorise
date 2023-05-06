@@ -53,4 +53,4 @@ print(
 
 Output:
 
-<img src="https://github.com/Modern-Realm/pycolorise/blob/main/images/output-1.png" alt="output">
+![output](/pycolorise/images/output-2.png)

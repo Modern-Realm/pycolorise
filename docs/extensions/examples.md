@@ -17,4 +17,4 @@ print(hexBgColor(0xff4fff) + "pink" + end)
 
 Output:
 
-<img src="https://github.com/Modern-Realm/pycolorise/blob/main/images/constants.png" alt="output">
+![output](/pycolorise/images/constants.png)
