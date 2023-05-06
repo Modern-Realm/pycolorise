@@ -4,7 +4,7 @@ The terminal colorizer is a tool that improves the visual experience of terminal
 
 [![python badge](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/ "Python")
 
-[![CodeQL](https://github.com/Modern-Realm/pycolorise/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Modern-Realm/discord_btns_menus/actions/workflows/codeql-analysis.yml)
+[![CodeQL](https://github.com/Modern-Realm/pycolorise/actions/workflows/codeql.yml/badge.svg)](https://github.com/Modern-Realm/pycolorise/actions/workflows/codeql.yml)
 [![Generic badge](https://img.shields.io/badge/Python-3.7-blue.svg)](https://www.python.org/)
 ![Github License](https://img.shields.io/badge/license-MIT-blue)
 ![Windows](https://img.shields.io/badge/os-windows-yellow)
