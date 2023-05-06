@@ -1,6 +1,7 @@
 # Welcome to Documentation
 
-The terminal colorizer is a tool that improves the visual experience of terminal applications
+- Add **colors/fonts** to the terminal
+- The terminal colorizer is a tool that improves the visual experience of terminal applications
 
 [![python badge](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/ "Python")
 
