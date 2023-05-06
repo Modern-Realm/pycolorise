@@ -1,0 +1,138 @@
+site_name: pycolorise
+site_description: color your terminal output
+site_author: skrphenix
+site_dir: site
+copyright: Copyright (c) 2023 skrphenix
+
+repo_name: "Modern-Realm/pycolorise"
+repo_url: https://github.com/Modern-Realm/pycolorise
+edit_uri: ''
+
+watch: [ docs ]
+
+theme:
+  name: "material"
+  locale: en
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    # Navigation
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.tracking
+    # search
+    - search.highlight
+    - search.suggest
+    - search.share
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - css/material.css
+  - css/mkdocstrings.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: "#"
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: Modern-Realm
+      repo: pycolorize
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            docstring_options:
+              ignore_init_summary: no
+            merge_init_into_class: yes
+            separate_signature: yes
+            show_source: no
+            show_root_full_path: no
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Getting Started: getting-started.md
+  - Guide:
+      - Enums: guide/enums.md
+      - Colors:
+          - Base: guide/base.md
+          - Foreground Colors: guide/colors.md
+          - Background Colors: guide/bg_colors.md
+      - Font Styles: guide/font_styles.md
+      - Extensions:
+          - Constants: extensions/constants.md
+          - Examples: extensions/examples.md
+      - Example Usages: guide/examples.md
+      - Customise Logger: guide/logging.md
+  - About:
+      - Code Of Conduct: about/CODE_OF_CONDUCT.md
+      - Contributing: about/CONTRIBUTING.md
+      - License: about/LICENSE.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/skrphenix
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/GVMWx5EaAN
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/pycolorise/

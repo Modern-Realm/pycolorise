@@ -1,0 +1,3 @@
+# Enums
+
+::: pycolorise.enums
