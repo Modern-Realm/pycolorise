@@ -15,12 +15,12 @@ Join [Official Discord Server](https://discord.gg/GVMWx5EaAN  "click to Join") f
 
 # Features
 
-- It provides templates for foreground, background colors and font styles for re-usability.
+- It provides **templates** for foreground, background colors and font styles for re-usability.
 
-- It supports 24-bit true colors, RGB, and hex colors, providing a wide range of color options.
+- It supports **24-bit true colors, RGB, and hex colors**, providing a wide range of color options.
 
-- The colorizer is built using object-oriented programming principles, making it highly customizable.
+- The colorizer is built using **object-oriented programming** principles, making it highly customizable.
 
 - Developers can easily create their own color schemes to suit their needs.
 
-- The colorizer has no dependencies, making it easy to integrate into any project without adding unnecessary overhead.
+- The colorizer has **no dependencies**, making it easy to integrate into any project without adding unnecessary overhead.
