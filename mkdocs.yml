@@ -1,5 +1,5 @@
 site_name: pycolorise
-site_description: color your terminal output
+site_description: Add colors/fonts to the terminal
 site_author: skrphenix
 site_dir: site
 copyright: Copyright (c) 2023 skrphenix
