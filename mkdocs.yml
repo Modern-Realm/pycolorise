@@ -118,6 +118,7 @@ nav:
           - Foreground Colors: guide/colors.md
           - Background Colors: guide/bg_colors.md
       - Font Styles: guide/font_styles.md
+      - Templates: guide/templates.md
       - Extensions:
           - Constants: extensions/constants.md
           - Examples: extensions/examples.md
