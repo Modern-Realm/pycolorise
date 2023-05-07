@@ -1,4 +1,4 @@
-# Examples usage of constants
+# Example usage of constants
 
 ```python
 from pycolorise.constants import *
